@@ -1,0 +1,23 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Dependencies
+node_modules
+src-tauri/target
+
+# Local & Scraped
+public/scraped/*
+!public/scraped/.gitkeep
+*.exe
+*.msi
+
+# Environment
+.env*
+!.env.example
+
+# IDE
+.vscode
+.idea
+.DS_Store
