@@ -1,3 +1,5 @@
+> **DESATIVADO em 08/11/2026 (decisao do Victor):** combinado com a Isa, o aviso das 22:15/22:30 nao e mais necessario. Tarefas `SentinelaIsa_*` removidas do Agendador. Nao reinstalar (`instalar_sentinela_windows.ps1`) sem ordem explicita do Victor.
+
 # Sentinela do Amor: Isa & Victor
 
 Sistema de vanguarda para Victor cuidar, honrar e nunca falhar nos 3 pilares vitais com a Isa:

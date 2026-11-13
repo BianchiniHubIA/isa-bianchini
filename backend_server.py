@@ -34,10 +34,10 @@ META_IG_USER_ID = alfred_env.get("META_IG_USER_ID", "28747576051551708")
 
 app = FastAPI(title="Isa Bianchini Sentinela API", version="1.0.0")
 
-# Habilitar CORS para o frontend Vite
+# Habilitar CORS restrito para localhost/LAN no frontend Vite
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],
+    allow_origin_regex=r"^https?://(localhost|127\.0\.0\.1|192\.168\.\d+\.\d+|10\.\d+\.\d+\.\d+)(:\d+)?$",
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],

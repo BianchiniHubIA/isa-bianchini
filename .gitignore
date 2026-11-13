@@ -21,3 +21,6 @@ public/scraped/*
 .vscode
 .idea
 .DS_Store
+
+.env.local
+.dev.vars
